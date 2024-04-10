@@ -39,7 +39,7 @@ def add_holidays_to_scheme(tempo_api_token:str, tempo_holiday_scheme_ID:str, nat
                 else:
                     json_data = json.dumps({
                         "date": str(date),
-                        "description": "Autoimported with Tai's Databricks notebook: Jira holiday scheme updater",
+                        "description": "Autoimported with Tai's Jira Holiday Importer",
                         "durationSeconds": 86400,
                         "name": name,
                         "type": "FLOATING"
